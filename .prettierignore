@@ -1,0 +1,6 @@
+.eslintignore
+.eslintrc
+.prettierignore
+.prettierrc
+*.md
+*.json

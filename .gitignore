@@ -1,0 +1,10 @@
+/build
+/coverage
+/dist
+/node_modules
+/out
+/.next
+
+.DS_Store
+.env
+*.log*

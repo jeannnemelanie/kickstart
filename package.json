@@ -1,0 +1,48 @@
+{
+  "name": "@jeannnemelanie/kickstart",
+  "version": "0.1.0",
+  "description": "Kick your JavaScript projects set-up (React, NextJS or Node) with Typescript, ESLint & Prettier.",
+  "main": "src/index.ts",
+  "keywords": [
+    "react",
+    "next",
+    "next.js",
+    "node",
+    "typescript",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Mélanie Lapeyre <info@melanielapeyre.com>",
+  "license": "ISC",
+  "bin": {
+    "create-app": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "ncc build ./src/index.ts -w -o dist/",
+    "build": "ncc build ./src/index.ts -o dist/"
+  },
+  "dependencies": {
+    "@vercel/ncc": "^0.25.1",
+    "chalk": "^4.1.0",
+    "cross-spawn": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "fs-from-object": "^0.4.0",
+    "mkdirj": "^0.1.0",
+    "path": "^0.12.7",
+    "prompts": "^2.4.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.2",
+    "@types/prompts": "^2.0.9",
+    "@types/validate-npm-package-name": "^3.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
