@@ -62,7 +62,7 @@ Answser the questions, wait few minutes and you are all set ✨
 ### All stacks
 
 - [ ] Add commands in README.md file
-- [ ] Add create repo step
+- [ ] Add create repo step + switch to develop branch
 
 ### React stack
 
